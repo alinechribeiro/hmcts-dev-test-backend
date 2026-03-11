@@ -10,3 +10,9 @@ out/
 *.iml
 *.log
 .idea/
+build/
+.gradle/
+out/
+*.iml
+*.log
+.idea/
