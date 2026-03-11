@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hmcts_tasks
+    username: hmcts
+    password: hmcts
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    open-in-view: false
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework: INFO
+    uk.gov.hmcts.tasks: DEBUG
+
