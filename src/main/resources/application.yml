@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/hmcts_tasks
-    username: hmcts
-    password: hmcts
+    username: ${DB_USERNAME:hmcts}
+    password: ${DB_PASSWORD:hmcts}
   jpa:
     hibernate:
       ddl-auto: update
